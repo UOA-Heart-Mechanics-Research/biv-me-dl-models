@@ -1,0 +1,14 @@
+{
+    "channel_names": {
+        "0": "MRI"
+    },
+    "labels": {
+        "background": 0,
+        "rv_cavity": 1,
+        "rv_myocardium": 2,
+        "pulmonary_artery": 3
+    },
+    "numTraining": 58,
+    "file_ending": ".nii.gz",
+    "name": "Dataset214_RVOT_2D"
+}
