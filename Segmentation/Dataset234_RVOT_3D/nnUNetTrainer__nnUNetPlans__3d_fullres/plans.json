@@ -7,7 +7,7 @@
         1.0
     ],
     "original_median_shape_after_transp": [
-        26,
+        27,
         254,
         206
     ],
@@ -26,7 +26,7 @@
         "2d": {
             "data_identifier": "nnUNetPlans_2d",
             "preprocessor_name": "DefaultPreprocessor",
-            "batch_size": 34,
+            "batch_size": 54,
             "patch_size": [
                 256,
                 224
@@ -152,7 +152,7 @@
                 224
             ],
             "median_image_size_in_voxels": [
-                26.0,
+                27.0,
                 254.0,
                 206.0
             ],
@@ -282,13 +282,13 @@
     "label_manager": "LabelManager",
     "foreground_intensity_properties_per_channel": {
         "0": {
-            "max": 1502.0,
-            "mean": 218.29481506347656,
-            "median": 195.0,
+            "max": 255.0,
+            "mean": 86.8825912475586,
+            "median": 88.0,
             "min": 0.0,
-            "percentile_00_5": 28.0,
-            "percentile_99_5": 757.0,
-            "std": 122.17560577392578
+            "percentile_00_5": 9.0,
+            "percentile_99_5": 176.0,
+            "std": 38.117313385009766
         }
     }
 }

@@ -11,7 +11,7 @@
         "aorta": 5,
         "rv_myocardium": 6
     },
-    "numTraining": 82,
+    "numTraining": 118,
     "file_ending": ".nii.gz",
     "name": "Dataset232_3ch_3D"
 }

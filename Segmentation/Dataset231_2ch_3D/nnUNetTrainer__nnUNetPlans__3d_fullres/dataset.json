@@ -8,7 +8,7 @@
         "lv_myocardium": 2,
         "la_cavity": 3
     },
-    "numTraining": 88,
+    "numTraining": 140,
     "file_ending": ".nii.gz",
     "name": "Dataset231_2ch_3D"
 }

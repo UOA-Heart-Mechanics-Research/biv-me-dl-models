@@ -8,7 +8,7 @@
         "rv_myocardium": 2,
         "pulmonary_artery": 3
     },
-    "numTraining": 29,
+    "numTraining": 44,
     "file_ending": ".nii.gz",
     "name": "Dataset234_RVOT_3D"
 }

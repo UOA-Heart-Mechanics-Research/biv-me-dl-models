@@ -9,7 +9,7 @@
         "rv_cavity": 3,
         "rv_myocardium": 4
     },
-    "numTraining": 318,
+    "numTraining": 477,
     "file_ending": ".nii.gz",
     "name": "Dataset230_SAX_3D"
 }

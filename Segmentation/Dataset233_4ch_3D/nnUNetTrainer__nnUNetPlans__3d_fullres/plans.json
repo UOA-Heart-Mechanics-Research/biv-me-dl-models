@@ -8,8 +8,8 @@
     ],
     "original_median_shape_after_transp": [
         50,
-        183,
-        205
+        194,
+        206
     ],
     "image_reader_writer": "SimpleITKIO",
     "transpose_forward": [
@@ -26,14 +26,14 @@
         "2d": {
             "data_identifier": "nnUNetPlans_2d",
             "preprocessor_name": "DefaultPreprocessor",
-            "batch_size": 75,
+            "batch_size": 64,
             "patch_size": [
-                192,
+                224,
                 224
             ],
             "median_image_size_in_voxels": [
-                183.0,
-                205.0
+                194.0,
+                206.0
             ],
             "spacing": [
                 1.0,
@@ -153,8 +153,8 @@
             ],
             "median_image_size_in_voxels": [
                 50.0,
-                183.0,
-                205.0
+                194.0,
+                206.0
             ],
             "spacing": [
                 1.0,
@@ -283,12 +283,12 @@
     "foreground_intensity_properties_per_channel": {
         "0": {
             "max": 255.0,
-            "mean": 70.94036102294922,
-            "median": 69.0,
+            "mean": 72.45916748046875,
+            "median": 71.0,
             "min": 0.0,
-            "percentile_00_5": 9.0,
-            "percentile_99_5": 163.0,
-            "std": 36.556427001953125
+            "percentile_00_5": 8.0,
+            "percentile_99_5": 172.0,
+            "std": 37.69327163696289
         }
     }
 }

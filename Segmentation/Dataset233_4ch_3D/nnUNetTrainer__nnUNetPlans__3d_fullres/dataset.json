@@ -11,7 +11,7 @@
         "ra_cavity": 5,
         "rv_myocardium": 6
     },
-    "numTraining": 81,
+    "numTraining": 125,
     "file_ending": ".nii.gz",
     "name": "Dataset233_4ch_3D"
 }
