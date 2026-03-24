@@ -1,6 +1,6 @@
 {
     "channel_names": {
-        "0": "MRI"
+        "0": "noNorm"
     },
     "labels": {
         "background": 0,
@@ -8,7 +8,7 @@
         "rv_myocardium": 2,
         "pulmonary_artery": 3
     },
-    "numTraining": 44,
+    "numTraining": 544,
     "file_ending": ".nii.gz",
-    "name": "Dataset234_RVOT_3D"
+    "name": "Dataset264_RVOT_3D"
 }

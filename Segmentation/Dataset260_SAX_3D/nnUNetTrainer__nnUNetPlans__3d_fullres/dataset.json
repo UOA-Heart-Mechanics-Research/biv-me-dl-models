@@ -1,17 +1,15 @@
 {
     "channel_names": {
-        "0": "MRI"
+        "0": "noNorm"
     },
     "labels": {
         "background": 0,
         "lv_cavity": 1,
         "lv_myocardium": 2,
         "rv_cavity": 3,
-        "la_cavity": 4,
-        "aorta": 5,
-        "rv_myocardium": 6
+        "rv_myocardium": 4
     },
-    "numTraining": 118,
+    "numTraining": 5200,
     "file_ending": ".nii.gz",
-    "name": "Dataset232_3ch_3D"
+    "name": "Dataset260_SAX_3D"
 }
