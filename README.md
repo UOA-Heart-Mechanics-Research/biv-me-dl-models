@@ -4,7 +4,79 @@
 
 </div>
 
-## v1.1 (current version)
+## v1.2 (current version)
+### View selection model (ResNet50)
+
+Developed with 462 cases
+-   **[UK Biobank](https://www.ukbiobank.ac.uk/)**: 200
+    -   Healthy
+    -   Siemens (1.5T)
+-   **[CARDIOHANCE](https://doi.org/10.3389/fcvm.2022.1016703)**: 204
+    -   Mixed healthy/pathological
+    -   Siemens (1.5T/3T)
+-   **[CAP CHD](https://capchd.ucsd.edu/)**: 58
+    -   Repaired Tetralogy of Fallot (rToF)
+    -   GE, Philips (1.5T)
+
+Number of classes: 10
+-   SAX-atria (short-axis of the atria)   
+-   SAX (short-axis of the ventricles) 
+-   SAX-other (short axis with no cardiac structures) 
+-   2ch (two chamber)
+-   3ch (three chamber)
+-   4ch (four chamber)
+-   RVOT (right ventricular outflow tract)
+-   RVOT-oblique (tranverse right ventricular outflow tract)
+-   LVOT (left ventricular outflow tract)
+-   2ch-RV (right sided two chamber)
+
+
+### Segmentation models (3D nnU-Net)
+
+Developed with 184 cases
+-   **[UK Biobank](https://www.ukbiobank.ac.uk/)**: 70
+    -   Healthy
+    -   Siemens (1.5T)
+-   **[CARDIOHANCE](https://doi.org/10.3389/fcvm.2022.1016703)**: 86
+    -   Mixed healthy/pathological
+    -   Siemens (1.5T/3T)
+-   **[CAP CHD](https://capchd.ucsd.edu/)**: 28
+    -   Repaired Tetralogy of Fallot (rToF)
+    -   GE, Philips (1.5T)
+
+#### SAX
+-   LV cavity
+-   LV myocardium
+-   RV cavity
+-   RV myocardium
+
+#### 2ch
+-   LV cavity
+-   LV myocardium
+-   LA cavity
+
+#### 3ch
+-   LV cavity
+-   LV myocardium
+-   RV cavity
+-   LA cavity
+-   Aorta
+-   RV myocardium
+
+#### 4ch
+-   LV cavity
+-   LV myocardium
+-   RV cavity
+-   LA cavity
+-   RA cavity
+-   RV myocardium
+
+#### RVOT
+-   RV cavity
+-   RV myocardium
+-   Pulmonary artery
+
+## v1.1 (superseded)
 ### View selection model (ResNet50)
 
 Developed with 418 cases
